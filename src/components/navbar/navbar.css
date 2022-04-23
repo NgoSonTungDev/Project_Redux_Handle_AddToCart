@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #3498db;
+}
+
+.namepage{
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-icon{
+    margin-top: -10px;
+    width: 35px;
+    height: 30px;    position: relative;
+    margin-right: 10%;
+}
+
+.navbar-icon i {
+    position: absolute;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar-icon span{
+    position: absolute;
+    right: 0;
+    top: -5px;
+    font-weight: 700;
+}
+

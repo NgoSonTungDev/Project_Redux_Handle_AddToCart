@@ -1,0 +1,1 @@
+export const ListDataCart = (state) => state.dataCart;

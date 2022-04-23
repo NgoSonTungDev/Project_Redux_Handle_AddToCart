@@ -1,0 +1,110 @@
+.tableCart {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.tableCart table {
+  width: 100%;
+}
+
+.tableCart tr td {
+  margin-top: 5px;
+  border: 1px solid #000;
+}
+
+
+.tableCart tr td img {
+  margin: 5px 0px;
+  width: 80px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.tableCart p {
+  text-align: center;
+}
+
+.tableCart h4 {
+  text-align: center;
+  color: #e74c3c;
+}
+
+.tableCart .btn-Delete {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 18px;
+  background-color: #40a8eeb9;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  border: none;
+  cursor: pointer;
+}
+
+.btn-Delete:hover {
+  background-color: #2980b9;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  color: #fff;
+}
+
+.tongsl {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.tongsl .soLuong {
+  padding: 3px 3px;
+  background-color: #00a8ff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.soLuong:hover {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  background-color: #e55039;
+}
+
+.tongsl span {
+  margin: 0px 3px;
+}
+
+.tableCart hr{
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.tongTien{
+    font-size: 18px;
+    text-align: right;
+    margin-top: 8px;
+}
+
+.tongTien span:nth-child(1){
+    font-weight: bold;
+}
+
+.tongTien span:nth-child(2){
+    color: #eb2f06;
+}
+
+.tongTien span:nth-child(3){
+    color: #000;
+}
+.tongTien .clear-btn {
+  font-style: 23px;
+  margin-top: 15px;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 1.15px;
+  color: gray;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.clear-btn:hover{
+  color: #00a8ff;
+}

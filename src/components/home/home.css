@@ -1,0 +1,6 @@
+.home-body {
+  width: 80%;
+  margin-left: 10%;
+  flex-wrap: wrap;
+  display: flex
+}
